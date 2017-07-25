@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Poker-sm-231-Ad" size="1.000000 1.400000" />
+    <ImageTarget name="eee" size="1.000000 1.283019" />
+    <ImageTarget name="IMG_20170524_045311-min" size="1.000000 1.336870" />
+    <ImageTarget name="ama" size="1.000000 1.793889" />
+  </Tracking>
+</QCARConfig>
