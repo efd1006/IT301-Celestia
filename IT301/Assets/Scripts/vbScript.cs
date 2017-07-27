@@ -21,10 +21,10 @@ public class vbScript : MonoBehaviour, IVirtualButtonEventHandler {
 		C = GameObject.Find ("C");
 		C.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
 		D = GameObject.Find ("D");
-		D.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
+		/*D.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
 		scriptholder = GameObject.Find("ScriptHolder");
 		Login l = scriptholder.GetComponent<Login> ();
-		usn = l.getUsn ();
+		usn = l.getUsn (); */
 		//Debug.Log (usn);
 		//c = GameObject.Find ("value");
 		//c.SetActive (false);

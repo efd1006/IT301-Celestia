@@ -1,13 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Login.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Celestia\planets\data\PlanetDefault.shader">
     <Files>
-      <File FileName="Assets\Scripts\MenuScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Login.cs" Line="78" Column="2" />
-      <File FileName="Assets\Plugins\Android\AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" Line="152" Column="104" />
-      <File FileName="Assets\Scripts\vbScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Celestia\planets\data\PlanetDefault.shader" Line="96" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
