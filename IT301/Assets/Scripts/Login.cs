@@ -75,4 +75,8 @@ public class Login : MonoBehaviour {
 			Application.Quit();
 		}
 	}
+	public string getUsn()
+	{
+		return usn_online;
+	}
 }

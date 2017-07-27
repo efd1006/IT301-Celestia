@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="IMG_20170728_011048" size="1.000000 1.495877" />
+    <ImageTarget name="questions_qr" size="1.000000 0.949772" />
+    <ImageTarget name="choices" size="1.000000 1.580052" />
+    <ImageTarget name="D" size="1.000000 0.948837" />
+    <ImageTarget name="C" size="1.000000 1.000000" />
+    <ImageTarget name="B" size="1.000000 0.970732" />
+    <ImageTarget name="A" size="1.000000 0.990099" />
+    <ImageTarget name="venus_qr" size="1.000000 1.029557" />
+    <ImageTarget name="uranus_qr" size="1.000000 0.989950" />
+    <ImageTarget name="sun_qr" size="1.000000 0.995025" />
+    <ImageTarget name="saturn_qr" size="1.000000 1.005025" />
+    <ImageTarget name="neptune_qr" size="1.000000 0.980392" />
+    <ImageTarget name="mercury_qr" size="1.000000 1.009950" />
+    <ImageTarget name="jupiter_qr" size="1.000000 0.979900" />
+    <ImageTarget name="earth_qr" size="1.000000 0.980583" />
+    <ImageTarget name="mars_qr" size="1.000000 0.980392" />
+    <ImageTarget name="venus" size="1.000000 1.571429" />
+    <ImageTarget name="uranus" size="1.000000 1.572559" />
+    <ImageTarget name="sun" size="1.000000 1.576408" />
+    <ImageTarget name="saturn" size="1.000000 1.550649" />
+    <ImageTarget name="neptune" size="1.000000 1.540682" />
+    <ImageTarget name="mercury" size="1.000000 1.547315" />
+    <ImageTarget name="mars" size="1.000000 1.550914" />
+    <ImageTarget name="jupiter" size="1.000000 1.576316" />
+    <ImageTarget name="front" size="1.000000 1.544757" />
+    <ImageTarget name="earth" size="1.000000 1.561039" />
+    <ImageTarget name="IMG_20170706_042353" size="1.000000 1.086268" />
+    <ImageTarget name="IMG_20170607_210908-min" size="50.000000 63.202526" />
     <ImageTarget name="Poker-sm-231-Ad" size="1.000000 1.400000" />
     <ImageTarget name="eee" size="1.000000 1.283019" />
     <ImageTarget name="IMG_20170524_045311-min" size="1.000000 1.336870" />
