@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1600
     height: 767
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 16565
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1212
     height: 767
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 16566
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1212
     height: 496
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 16567
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 266
     height: 496
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00d6fefff21affffe65effff4861ffff4a61ffff227cffff247cffff7ea2ffffbeb2ffffc0b2ffffa6fbffffd0fbffffdcfbffff00000000fe290000
+    m_ExpandedIDs: 207ef7ff9a7ef7ffde7ff7ffe47ff7ff04a9f7ff7ea9f7ffc2aaf7ffc8aaf7ff0cd1f7ff86d1f7ffcad2f7ffd0d2f7ff9cb2f8ff5ab3f8ffa0b4f8ffbab5f8ff6066fbffd267fbff5a68fbff4e8efbff9491fbffa8a9fbffd2b5fbffa4c0fbff5cc1fbffacc2fbffccc2fbff16c6fbff34c6fbff20cdfbff2ccdfbffb20efdff4a44feff784dfeff948cffff2690ffffe0adffff68aeffffbaafffffd8afffffe6e8fffff2e8ffff24ecffffd2fbffffdefbffff00000000de35000048650000526500007465000004680000386c0000ae6c0000746e00007c6e00008e6e000054df00000ee1000020e1000028e1000040e10000aa0f0100dc0f0100ae170100e0170100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,14 +419,14 @@ MonoBehaviour:
     width: 942
     height: 475
   m_SceneLighting: 1
-  lastFramingTime: 5320.749040022888
-  m_2DMode: 0
+  lastFramingTime: 11028.929193696204
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.75145286, y: -10.226965, z: 9.246121}
+    m_Target: {x: -22.053406, y: 34.011177, z: -29.5}
     speed: 2
-    m_Value: {x: 0.75145286, y: -10.226965, z: 9.246121}
+    m_Value: {x: -22.053406, y: 34.011177, z: -29.5}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -441,26 +441,26 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: -0.43166912, y: -0.014348678, z: 0.0068671494, w: -0.90189177}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.43166912, y: -0.014348678, z: 0.0068671494, w: -0.90189177}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.997486
+    m_Target: 148.0578
     speed: 2
-    m_Value: 17.997486
+    m_Value: 148.0578
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: 1
+  m_LastSceneViewRotation: {x: -0.0008707896, y: -0.9467178, z: 0.32205316, w: -0.0025596758}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -572,19 +572,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Celestia/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Celestia/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\GitHub\IT301-Celestia\IT301
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 50320000
-    m_LastClickedID: 12880
-    m_ExpandedIDs: 000000007a260000942700004a280000922800001a290000ba2a00008a2d0000902d0000ac2d0000b82d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: 52280000
+    m_LastClickedID: 10322
+    m_ExpandedIDs: 000000006826000096260000ba260000da2700003e2800004c28000068280000e02800004e29000086290000ee290000f8290000fc290000022c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,7 +612,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007a260000c4260000942700004a28000092280000122900001a290000ba2a0000
+    m_ExpandedIDs: 0000000068260000ba260000da2700003e2800004c280000e02800004e29000086290000f8290000fc290000022c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 6e1c0000806ffcff440600003a050000420600007ca200000e230000902500004e250000622b000000000000ec2600002c280000f0240000e6280000722f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

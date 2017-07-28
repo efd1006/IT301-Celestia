@@ -5,7 +5,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
-
+using UnityEngine.UI;
 namespace Vuforia
 {
     /// <summary>
@@ -14,6 +14,12 @@ namespace Vuforia
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
+		public Transform TextTargetName;
+		public Transform TextDescription;
+		public Transform SidePanel;
+		public Transform SunDescription;
+		public Transform XDescription;
+
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
@@ -83,7 +89,15 @@ namespace Vuforia
                 component.enabled = true;
             }
 
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            Debug.Log("Trackable " + mTrackableBehaviour.name + " found");
+			TextTargetName.GetComponent<Text>().text = name;
+			TextDescription.gameObject.SetActive(true);
+			SidePanel.gameObject.SetActive(true);
+			if (mTrackableBehaviour.name == "The Sun") {
+				SunDescription.gameObject.SetActive(true);
+				XDescription.gameObject.SetActive(false);
+			}
+
         }
 
 
@@ -105,6 +119,13 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+			TextTargetName.GetComponent<Text> ().text = "";
+			TextDescription.gameObject.SetActive(false);
+			SidePanel.gameObject.SetActive(false);
+			SunDescription.gameObject.SetActive(false);
+			XDescription.gameObject.SetActive(false);
+
+
         }
 
         #endregion // PRIVATE_METHODS
